@@ -1,0 +1,452 @@
+body {
+	margin: 0 0 0 0;
+	font-family: Tahoma, arial;
+	font-size: 14px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	text-align: left;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	height: 85px;
+	background: #101828;
+}
+
+.header_menu {
+	padding-top: 20px;
+	position: relative;
+	display: inline-block;
+	left: 480px;
+	float: right;
+}
+
+.header_menu_user {
+	padding-top: 35px;
+	position: relative;
+	display: inline-block;
+	left: 200px;
+	float: right;
+}
+
+.heading {
+	color: seagreen;
+}
+.heading_game{
+	color: #fff;
+}
+.body_konten {
+	margin-top: -20px;
+	background: #101828;
+}
+
+.body_kategori {
+	margin-top: -20px;
+	background-color: #101828;
+	padding-top: 50px;
+	color: #fff;
+}
+
+.produk_search {
+	padding: 30px;
+	padding-left: 350px;
+	width: 100%;
+	line-height: 5em;
+}
+
+.form_search {
+	width: 50%;
+	padding: 10px 15px;
+	color: #636363;
+	border-radius: 10px;
+	background-color: #101828;
+	border: 1px solid #fff;
+}
+
+
+.tag_kategori {
+	padding-bottom: 30px;
+}
+
+.texth1 {
+	color: #fff;
+}
+.menu_atas {
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+.active,
+.menu_atas:hover {
+	color: #fff;
+	background: seagreen;
+}
+
+.menu_button {
+	padding: 10px 25px;
+	font-size: 14px;
+	background: #D92D20;
+	border-radius: 10px;
+	text-decoration: none;
+	border: 1px solid #D92D20;
+	color: #fff;
+}
+
+.menu_button:hover {
+	background: #C41B0F;
+	color: #fff;
+}
+
+.menu_button2 {
+	padding: 10px 25px;
+	font-size: 14px;
+	background: #101828;
+	border-radius: 10px;
+	text-decoration: none;
+	border: 1px solid #D92D20;
+	color: #fff;
+}
+
+.menu_button2:hover {
+	border: 3px solid #D92D20;
+}
+.button_kategori {
+	padding: 10px 25px;
+	font-size: 14px;
+	background: #101828;
+	border-radius: 10px;
+	text-decoration: none;
+	border: 1px solid #FFF;
+	color: #fff;
+}
+
+.button_kategori:hover {
+	border: 0px solid #FFF;
+}
+
+.thumbnail {
+	height: 550px;
+	width: 100%;
+	background: url(images/thumbnail.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.thumbnail2 {
+	height: 550px;
+	width: 100%;
+	background: url(images/cover.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.linear {
+	background-image: linear-gradient(rgba(16, 24, 40, 0.5), rgba(16, 24, 40, 1));
+	width: 100%;
+	height: 100%;
+}
+
+.signup {
+	margin-top: 100px;
+	color: #fff;
+}
+
+.body_sign {
+	background-color: #101828;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.form_input2 {
+	width: 70%;
+	padding: 10px 15px;
+	color: #636363;
+	border-radius: 3px;
+	background-color: #b1cbff;
+	border: 1px solid #101828;
+}
+
+.form_button2 {
+	padding: 10px 25px;
+	border-radius: 10px;
+	background: #21d515;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.form_button2:hover {
+	background: #0a9301;
+	color: #fff;
+}
+
+.thumbnail_log {
+	width: 50%;
+	height: 657px;
+	background-repeat: no-repeat;
+	background-image: url(images/log.png);
+}
+
+.container2 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+
+}
+.konten{
+	padding-top: 80px;
+}
+
+.batas {
+	display: inline-block;
+	top: 40px;
+}
+
+.text_kecil {
+	text-decoration: none;
+	color: green;
+}
+
+.text_kecil2 {
+	text-decoration: none;
+	color: blue;
+}
+.produk {
+	padding: 10px;
+	border: 1px solid #D4D4D4;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+.produk:hover {
+	border: 1px solid #69E5FF;
+}
+.namagame{
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+}
+.namagame a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+}
+.namagamei{
+	text-decoration: none;
+	color: #fff;
+	font-weight: normal;
+}
+
+.produk_nama a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #4CA000;
+}
+
+.produk_nama a:hover {
+	color: #01B100;
+}
+
+.produk_tombol_besar {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	background: #00D926;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+.produk_tombol_besar:hover {
+	background: #01B100;
+}
+
+.produk_tombol_kecil {
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 11px;
+	background: #00D926;
+	color: #FFFFFF;
+}
+
+.produk_tombol_kecil:hover {
+	background: #01B100;
+}
+
+
+.detailmain {
+	background-color: #101828;
+	color: #fff;
+}
+
+.detail_game {
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 11px;
+	background: green;
+	color: #FFFFFF;
+}
+
+.detail_game:hover {
+	background: #00c300;
+}
+
+.bg_header_home {
+	height: 550px;
+	width: 100%;
+	background: url(images/thumbnail.png);
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+
+.bg_header_page {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	background: url(images/164745429-shop-wallpapers.jpg);
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.game{
+	margin-bottom: 5px;
+}
+.game:hover{
+	border: 1px solid black;
+	margin-bottom: 5px;
+	
+}
+
+
+
+
+
+
+
+
+
+.footer {
+	height: 200px;
+	background: #373737;
+}
+
+.footer1 {
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	background: #292929;
+}
+
+/* LOGIN USER */
+.login_form_user {
+	width: 60%;
+	padding: 50px;
+	margin: 15% auto;
+	border: 1px solid #4BB50A;
+	background: #fafafa;
+}
+
+.form_text {
+	margin-top: 8px;
+}
+
+/* ADMIN */
+.linear_text {
+	color: #FFF;
+	font-size: 30px;
+	padding-top: 160px;
+}
+
+.body_konten2 {
+	padding-top: 100px;
+	background: #101e28;
+	color: #fff;
+}
+
+.form_input {
+	width: 100%;
+	padding: 10px 15px;
+	color: #101828;
+	border-radius: 3px;
+	background-color: #fff;
+	border: 1px solid #101828;
+}
+
+.table_admin {
+	width: 100%;
+}

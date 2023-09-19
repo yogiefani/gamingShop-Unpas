@@ -1,0 +1,23 @@
+WEBSITE GAME
+-FITUR:
+1. BISA CRUD
+2. SEARCH
+3. LOGIN,LOGOUT,REGISTER ADMIN 
+4. RELASI ANTAR TABLE(tabel kategori & tabel game)
+5. ADA 3 TABEL(admin,game,kategori)
+
+-CARA IMPORT DATABASE
+ Buat database dengan nama tubes lalu klik import dan klik go(harus buat database dahulu jangan langsung import)
+
+-CARA PERGI KE HALAMAN
+ pastikan xamp control sudah aktif, pindahkan folder game ke htdocs
+  1. ADMIN(backend): http://localhost/game/admin/index.php
+  2. USER(frontend): http://localhost/game/?page
+
+-BUG (belum bisa difix karena mepet deadline)
+1. input tanpa image akan membuat eror saat dihapus data nya tapi hilang saat refresh
+2. import gambar dengan ukuran 1920 X 1080 pixels agar simetris saat ditampilkan
+3. beberapa bug css
+
+-PERBAIKI(opsi)
+1. design css bisa dirapihkan sendiri tidak termasuk orderan untuk design css
